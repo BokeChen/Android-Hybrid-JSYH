@@ -1,0 +1,1072 @@
+/*样式重写*/
+
+body {
+    margin: 0;
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+
+ul {
+    list-style: none;
+    margin:0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+img{width:100%}
+
+/*公共类*/
+.fl {
+    float: left
+}
+
+.rt {
+    float: right
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.headbar {
+    width: 95%;
+    height: 3.566666rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 3.5666rem;
+    letter-spacing: 0.1rem;
+    padding-left: 1.5rem;
+    color: #08B6F2;
+    padding-bottom:0.2rem;
+    margin:0.3rem 0 0;
+    border-bottom: 0.027rem solid #999;
+    background: white url(images/icon-list.png) no-repeat -26.1666rem -28.3rem;
+    background-size:52.36875rem 92.232180rem ;
+   
+}
+
+.footer-tab-sel{
+    background-color:rgba(26,24,40,0.3)!important;
+}
+
+/*公共类结束*/
+#header {
+    padding-top: 1.963rem;
+    height: 3.03rem;
+    width: 100%;
+    background-color: #08B6F2;    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+
+}
+
+#header button:first-child {
+    width: 2.47rem;
+    height: 2.09rem;
+    background: url(images/icon-list.png) no-repeat 0 -4.9rem;
+    background-size:52.36875rem 92.232180rem ;
+    border-color: transparent;
+}
+
+#header button:last-child {
+    width: 2.90rem;
+    height: 2.09rem;
+    background: url(images/icon-list.png) no-repeat -27.016rem -4.73rem;
+    background-size:52.36875rem 92.232180rem ;
+    border-color: transparent;
+}
+
+#header input {
+    font-size: 1rem;
+    width: 22.279rem;
+    height: 2.09rem;
+    float: left;
+    background: url(images/icon-list.png) no-repeat 0 -8.2rem;
+    background-size:52.36875rem 92.232180rem ;
+    border-radius: 1.527rem;
+    outline-color: transparent;
+    padding-left: 3rem;
+    color: white;
+    border:none;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white !important;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: white !important;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: white !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: white !important;
+}
+
+/* main 区域的样式*/
+
+.main-top {
+    width: 100%;
+    height: 22.81rem;
+    background-color: #08B6F2;
+    padding-top: 2.01rem;
+}
+
+.main-top h1 {
+    font-size: 2.1rem;
+    font-weight:normal;
+    color: white;
+    margin: 5.2rem 1rem 1rem;
+}
+
+.main-top > button {
+    width: 8.56rem;
+    height: 2.59rem;
+    font-size: 1rem;
+    color: #08B6F2;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    background: url(images/icon-list.png) -24.5rem -0.37rem;
+    background-size:52.36875rem 92.232180rem ;
+}
+
+.main-top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 3.2rem;
+    padding-left:0;
+}
+
+.main-top ul li {
+    margin: 0;
+    width: 24%;
+    height: 2.13rem;
+    font-size: 1.06rem;
+    color: white;
+    text-align: center;
+}
+
+.main-top ul li p {
+    width: 2.947rem;
+    height: 2.947rem;
+    background: url(images/icon-list.png) -0.1666rem -11.523rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 0 auto 1rem;
+}
+
+.main-top ul li:nth-child(2) p {
+    background-position-x: -8.4rem;    
+}
+
+.main-top ul li:nth-child(3) p {
+    background-position-x: -16.4rem;
+}
+
+.main-top ul li:nth-child(4) p {
+    background-position-x: -24.2rem;
+}
+
+.main-list {
+    position: relative;
+}
+
+.main-list ul {
+    width: 100%;
+    height: 14.92rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left:0;
+    margin:0;
+}
+
+.main-list ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.main-list ul li a {
+    color: #333;
+    font-size: 1.06rem;
+}
+
+.main-list ul li p {
+    width: 2.91666rem;
+    height: 2.91666rem;
+    background: url(images/icon-list.png) 0.0555rem -32.138888rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 1.2rem auto 0.8rem;
+    position: relative;
+}
+
+.main-list ul li:nth-child(2) p {
+    background-position-x: -8.5rem;
+}
+
+.main-list ul li:nth-child(3) p {
+    background-position-x: -15.9rem;
+}
+
+.main-list ul li:nth-child(4) p {
+    background-position-x: -23.9166rem;
+}
+
+.main-list ul li:nth-child(5) p {
+    background-position: -7.8rem -38.5rem;
+}
+
+.main-list ul li:nth-child(6) p {
+    background-position: -15.7rem -38.5rem;
+}
+
+.main-list ul li:nth-child(7) p {
+    background-position: -24rem -38.5rem;
+}
+
+.main-list ul li:nth-child(8) p {
+    background-position: -30.7055rem -4.7rem;
+    margin-top: 2rem;
+}
+
+.long-line {
+    width: 93%;
+    height: 0.09rem;
+    background-image: linear-gradient(to top, #999 20%, white 100%);
+    position: absolute;
+    top: 7.5rem;
+    left: 1rem;
+    z-index: 2;
+}
+
+.main-banner {
+    padding-bottom:0.2rem;
+    background-color: #eee;
+}
+
+.main-pay div {
+    padding-bottom: 0.5rem;
+    background-color: #eee;
+}
+
+.main-change {
+    width: 100%;
+    height: 14.65rem;
+    padding-bottom: 0.4rem;
+    background-color: #dddddd;
+    box-sizing: border-box;
+
+}
+
+.main-change h1 {
+    margin-bottom: 0;
+}
+
+.main-change form {
+    background-color: white;
+    height: 9.75rem;
+    padding-top: 0.8rem;
+
+}
+
+.main-change form label {
+    font-size: 1rem;
+    padding: 0.4rem 0 0 1.5rem;
+    height: 2rem;
+    display: block;
+    position: relative;
+}
+
+.main-change form input {
+    display: inline-block;
+    margin-left: 2rem;
+    width: 14rem;
+    height: 74%;
+    font-size: 1rem;
+    border:0;
+}
+
+
+.main-change form label > button {
+    width: 6.402rem;
+    height: 2.777rem;
+    background: url(images/icon-list.png) no-repeat -35.4rem -4.9rem;
+    background-size:52.36875rem 92.232180rem ;
+    border: none;
+    position: absolute;
+  
+    right: 1.194444rem;
+}
+
+#main ::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 1rem;
+    color: #B8B8B8 !important;
+}
+
+#main :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+#main ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+#main :-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 0.6rem;
+    color: #B8B8B8 !important;
+}
+
+/*.   main-tel-charge          */
+
+
+.main-tel-charge{
+    margin-bottom: 5.5rem;
+}
+.main-tel-charge div{
+    padding:0 1rem;
+   
+}
+.main-tel-charge p {
+    height: 3.388rem;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.main-tel-charge p label {
+    font-size: 1.5rem;
+    padding-left:0.8rem;
+    color:gray;
+}
+
+.main-tel-charge p label input {
+    position:absolute;
+    top:0.3rem;
+    left:4.80555rem;
+    height:2rem;
+    font-size:1.5rem;
+    width:15rem;
+    border: 0;
+    margin-left:4rem;
+    color: gray;
+}
+
+.main-tel-charge p label button{
+    width:1.7rem;
+    height:2rem;
+    border:none;
+    background:url(images/icon-list.png) no-repeat -46.4rem -0.416rem;
+    background-size:52.36875rem 92.232180rem ;
+    position: absolute;
+    bottom:2rem;
+    right:0.111rem; 
+}
+.main-tel-charge p:first-child{
+    border-bottom: 0.027rem solid #999;
+}
+
+.main-tel-charge ::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 1.3rem !important;
+    color: #B8B8B8 !important;
+}
+.main-tel-charge p:last-child{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.main-tel-charge p:last-child a{
+    display:inline-block;
+    font-size:1rem;
+    width:4.0555rem;
+    height:3.055rem;
+    padding:0.65rem 0.4rem;
+    color:#08B6F2;
+    border:0.1277rem solid #08B6F2;
+    border-radius:0.33888rem ;
+    box-sizing: border-box;
+}
+
+/* CreditCard 区域的样式*/
+
+
+#header div{ 
+    color:white;
+     font-size: 1.6rem;
+     font-weight: 100;
+     line-height: 1.5rem;
+     text-align: center;
+     width: 22.279rem;
+     height: 2.09rem;
+     float: left;
+}
+
+.creditCard-login{
+    font-size: 1rem;
+    width: 100%;
+    height: 20.6rem;
+    background-color: #08B6F2;
+    padding-top: 5.01rem;
+   
+}   
+
+.creditCard-login button{
+    font-size:1rem;
+    display: block;
+    width:9.8rem;
+    height: 9.8rem;
+    border-radius: 9.8rem;
+    border:none;
+    outline: none;
+    margin:3.5rem auto 3rem ;
+    background:url(images/icon-list.png) no-repeat -32rem -9.783rem;
+    background-size:52.36875rem 92.232180rem ;
+}
+
+.creditCard-login p{
+
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+    
+}
+
+.creditCard-listSelf{
+    position: relative;
+}
+
+
+.creditCard-listSelf ul {
+    width: 100%;
+    height: 14.92rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left:0;
+    margin:0;
+}
+
+.creditCard-listSelf ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.creditCard-listSelf ul li a {
+    color: #333;
+    font-size: 1.06rem;
+}
+
+.creditCard-listSelf ul li p {
+    width: 2.91666rem;
+    height: 2.91666rem;
+    background: url(images/icon-list.png) 0rem -47.9rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 1.2rem auto 0.8rem;
+    position: relative;
+}
+
+.creditCard-listSelf ul li:nth-child(2) p{
+    background-position: -8rem -47.9rem;
+}
+.creditCard-listSelf ul li:nth-child(3) p{
+    background-position: -16.4rem -47.9rem;
+}
+.creditCard-listSelf ul li:nth-child(4) p{
+    background-position:  -24rem -47.9rem;
+}
+.creditCard-listSelf ul li:nth-child(5) p{
+    background-position: 0rem -50.8rem;
+}
+.creditCard-listSelf ul li:nth-child(6) p{
+    background-position: -8rem -50.8rem;
+}
+.creditCard-listSelf ul li:nth-child(7) p{
+    background-position: -16rem -50.8rem;
+}
+
+.creditCard-listSelf .long-line {
+    width: 100%;
+    height: 0.1rem;
+    background-image: linear-gradient(to top, #ddd 20%, white 100%);
+    position: absolute;
+    top: 8.1rem;
+    left: 0;
+    z-index: 2;
+}
+
+.creditCard-banner {
+    background-color: #eee;
+}
+
+
+.creditCard-list{
+    position: relative;
+}
+
+
+.creditCard-list ul {
+    width: 100%;
+    height: 14.92rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left:0;
+    margin:0;
+}
+
+.creditCard-list ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.creditCard-list ul li a {
+    color: #333;
+    font-size: 1.06rem;
+}
+
+.creditCard-list ul li p {
+    width: 2.91666rem;
+    height: 2.91666rem;
+    background: url(images/icon-list.png) 0.0555rem -38.138888rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 1.2rem auto 0.8rem;
+    position: relative;
+}
+
+
+.creditCard-list ul li:nth-child(2) p {   
+    background-position: -8rem -38.138888rem;  
+}
+.creditCard-list ul li:nth-child(3) p {   
+    background-position:  -16rem -38.138888rem;  
+}
+.creditCard-list ul li:nth-child(4) p {   
+    background-position:  -24rem -38.138888rem;  
+}
+.creditCard-list ul li:nth-child(5) p {   
+    background-position:  0rem -41.138888rem;  
+}
+.creditCard-list ul li:nth-child(6) p {   
+    background-position:  -8rem -41.138888rem;  
+}
+.creditCard-list ul li:nth-child(7) p {   
+    background-position:  -16rem -41.138888rem;  
+}
+.creditCard-list ul li:nth-child(8) p {   
+    background-position: -24rem -41.138888rem;  
+}
+
+
+.creditCard-list .long-line {
+    width: 100%;
+    height: 0.1rem;
+    background-image: linear-gradient(to top, #ddd 20%, white 100%);
+    position: absolute;
+    top: 11.4rem;
+    left: 0;
+    z-index: 2;
+}
+.creditCard-applyforCards{
+    border-top:1rem solid #eee;
+}
+.creditCard-applyforCards div,.creditCard-recommendedMerchant div{
+    height:3rem;
+    line-height: 3rem;
+    color:#999;
+    font-size: 1.2rem;
+    padding-left:2rem;
+}
+.creditCard-recommendedMerchant{
+    border-top:1rem solid #eee;
+    margin-bottom:4.5rem;
+}
+
+/*                   Investment 区域的样式            */
+
+.investment-list{
+    font-size: 1rem;
+    width: 100%;
+    height: 20.6rem;
+    background-color: #08B6F2;
+    padding-top: 5.01rem;
+   
+} 
+
+
+
+
+
+.investment-list{
+    position: relative;
+}
+
+
+.investment-list ul {
+    width: 100%;
+    height: 16.92rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left:0;
+    margin-top:1rem;
+}
+
+.investment-list ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.investment-list ul li a {
+    color:white;
+    font-size: 1.06rem;
+}
+
+.investment-list ul li p {
+    width: 3rem;
+    height: 2.91666rem;
+    background: url(images/icon-list.png) -0.1rem -15.7rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 1.2rem auto 1.2rem;
+    position: relative;
+}
+.investment-list ul li:nth-child(2) p{
+    background-position: -8.2rem -15.7rem;
+}
+.investment-list ul li:nth-child(3) p{
+    background-position: -16.2rem -15.7rem;
+}
+.investment-list ul li:nth-child(4) p{
+    background-position: -24.2rem -15.7rem;
+}
+.investment-list ul li:nth-child(5) p{
+    background-position: -0.41rem -19.8rem;
+}
+.investment-list ul li:nth-child(6) p{
+    background-position: -8.41rem -19.8rem;
+}
+.investment-list ul li:nth-child(7) p{
+    background-position: -16.41rem -19.8rem;
+}
+.investment-list ul li:nth-child(8) p{
+    background-position: -24.41rem -19.8rem;
+}
+
+.investment-ad ul{
+    width:100%;
+    padding-left:0;
+    height:6.487rem;
+}
+.investment-ad ul li{
+    display: inline-block;
+    width:50%;
+    height:100%
+
+}
+.investment-ad ul li:first-child{
+    box-sizing: border-box;
+    border-right:0.1rem solid #ddd;
+}
+.investment-banner {
+    border-top:1rem solid #ddd;
+    background-color: #eee;
+}
+
+
+
+
+
+
+
+/*                   loan 区域的样式            */
+
+.loan-top {
+    width: 100%;
+    height: 22.81rem;
+    background-color: #08B6F2;
+    padding-top: 2.01rem;
+}
+
+.loan-top h1 {
+    font-size: 2.1rem;
+    font-weight:normal;
+    color: white;
+    margin: 5.2rem 1rem 1rem;
+}
+
+.loan-top > button {
+    width: 8.56rem;
+    height: 2.59rem;
+    font-size: 1rem;
+    color: #08B6F2;
+    border: none;
+    outline: none;
+    margin-left: 1rem;
+    background: url(images/icon-list.png) -24.5rem -0.37rem;
+    background-size:52.36875rem 92.232180rem ;
+}
+
+.loan-top ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin-top: 3.2rem;
+    padding-left:0;
+}
+
+.loan-top ul li {
+    margin: 0;
+    width: 24%;
+    height: 2.13rem;
+    font-size: 1.06rem;
+    color: white;
+    text-align: center;
+}
+
+.loan-top ul li p {
+    width: 2.947rem;
+    height: 2.947rem;
+    background: url(images/icon-list.png) -0.2rem -23.9rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 0 auto 1rem;
+}
+
+.loan-top ul li:nth-child(2) p {    
+    background-position: -8.2rem -23.9rem;
+}
+.loan-top ul li:nth-child(3)  p{
+            
+    background-position:  -16.2rem -23.9rem;
+}
+ .loan-top ul li:nth-child(4) p {
+                
+    background-position:  -24.2rem -23.9rem;
+}
+    
+
+
+.loan-list {
+    position: relative;
+}
+
+.loan-list ul {
+    width: 100%;
+    height: 7.34rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-left:0;
+    margin:0;
+    border-bottom:1rem solid #ddd;
+}
+
+.loan-list ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.loan-list ul li a {
+    color: #333;
+    font-size: 1.06rem;
+}
+
+.loan-list ul li p {
+    width: 2.91666rem;
+    height: 2.91666rem;
+    background: url(images/icon-list.png) -0.2rem -44.4rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 1.2rem auto 0.8rem;
+    position: relative;
+}
+.loan-list ul li:nth-child(2) p {
+
+    background-position:  -8.2rem -44.4rem;
+}
+.loan-list ul li:nth-child(3) p {
+    
+    background-position:  -16.2rem -44.4rem;
+}
+
+
+.loan-banner{  margin-bottom:4.4rem;}
+.loan-banner img{
+    border-bottom:1rem solid #ddd;
+}
+
+/*               yxsh 区域的样式              */
+
+
+
+.yxsh-header{
+    height:9.84rem;
+    background-color:#08B6F2;
+}
+
+
+.yxsh-header{
+    position: relative;
+}
+
+
+.yxsh-header ul {
+    width: 100%;
+    height: 8.92rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding:0.8rem 0;
+    margin-top:4.9rem;
+}
+
+.yxsh-header ul li {
+    width: 25%;
+    text-align: center;
+    font-size: 0.7rem;
+
+}
+
+.yxsh-header ul li a {
+    color:white;
+    font-size: 1.06rem;
+}
+
+.yxsh-header ul li p {
+    width: 2.91666rem;
+    height: 2.91666rem;
+    background: url(images/icon-list.png) 0rem -28.4rem;
+    background-size:52.36875rem 92.232180rem ;
+    margin: 1.2rem auto 1.8rem;
+    position: relative;
+}
+
+.yxsh-header ul li:nth-child(2) p {
+    background-position:  -11rem -28.4rem;
+}
+.yxsh-header ul li:nth-child(3) p {
+    background-position: -22rem -28.4rem;
+}
+
+
+
+
+.yxsh-banner{
+   border-bottom:1rem solid #ddd; 
+}
+
+
+
+.yxsh-tel-charge{
+    border-bottom: 1rem solid #ddd;
+}
+.yxsh-tel-charge div{
+    padding:0 1rem;
+   
+}
+.yxsh-tel-charge p {
+    height: 3.388rem;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+.yxsh-tel-charge p label {
+    font-size: 1.5rem;
+    padding-left:0.8rem;
+    color:gray;
+}
+ 
+.yxsh-tel-charge p label input {
+    position:absolute;
+    top:0.3rem;
+    left:4.80555rem;
+    height:2rem;
+    font-size:1.5rem;
+    width:15rem;
+    border: 0;
+    margin-left:4rem;
+    color: gray;
+}
+
+.yxsh-tel-charge p label button{
+    width:1.7rem;
+    height:2rem;
+    border:none;
+    background:url(images/icon-list.png) no-repeat -46.4rem -0.416rem;
+    background-size:52.36875rem 92.232180rem ;
+    position: absolute;
+    bottom:2rem;
+    right:0.111rem;   
+}
+.yxsh-tel-charge p:first-child{
+    border-bottom: 0.027rem solid #999;
+}
+
+.yxsh-tel-charge ::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 1.3rem !important;
+    color: #B8B8B8 !important;
+}
+.yxsh-tel-charge p:last-child{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+}
+.yxsh-tel-charge p:last-child a{
+    display:inline-block;
+    font-size:1rem;
+    width:4.0555rem;
+    height:3.055rem;
+    padding:0.65rem 0.4rem;
+    color:#08B6F2;
+    border:0.1277rem solid #08B6F2;
+    border-radius:0.33888rem ;
+    box-sizing: border-box;
+}
+
+.yxsh-history{
+    margin-bottom:4.5rem;
+    border-bottom:1rem solid #ddd;
+}
+.yxsh-history h1{
+    font-family: Helvetica;
+}
+.headbar span{
+    float:right;
+    font-size: 1rem;
+
+}
+.yxsh-history div{
+    height:5.8rem;
+    line-height: 5.8rem;
+    text-align: center;
+    color:gray;  
+}
+
+
+/*               footer               */
+
+#footer {
+    color: green;
+    width: 100%;
+    height: 4.56rem;
+    position: fixed;
+    bottom: 0;  
+    display: -webkit-box;  
+    display: -ms-flexbox;  
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; 
+     z-index: 10;
+
+}
+
+#footer b {  
+  width:100%;
+  height:100%;
+  position: absolute;
+  background:rgb(26,25,39); 
+}
+
+#footer span {    
+    width:100%;
+    height:2.58rem;
+    background: url(images/icon-list.png) no-repeat  -0.2rem -64.4899rem;  
+    background-size:52.36875rem 92.232180rem ;
+    position: absolute;
+    top:0; 
+    z-index: 10;
+}
+
+#footer a {
+    /* display: block; */
+    width: 20%;
+    font-size: 1rem;
+    color: #858586 !important;
+    text-align: center;
+    background-color: transparent;
+    position: relative;  
+    z-index: 100;
+}
+
+#footer i{
+    display: block;
+    width:100%;
+    height:2.58rem;
+      
+}
+#footer s{
+    display: block;
+    width:101%;
+    height:2.58rem;   
+    background-color:rgb(26,25,39);
+}
+
+.i-active{
+    background:url(images/icon-list.png) no-repeat  0 -60.6rem; 
+    background-size:52.36875rem 92.232180rem ;
+    width:90% !important;
+}
+.card-swipe{width:100%;overflow: hidden;}
+.card-slide{width:300%;overflow: hidden;}
+.card-slide .item{float:left;width: 33.33%;}
+
+
